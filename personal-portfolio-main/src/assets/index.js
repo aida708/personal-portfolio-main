@@ -1,8 +1,7 @@
 import logo from "./logo.jpg";
-import homeImage from "./homeImage.png";
+import homeImage from "./homeimage.jpeg";
 
 import skill from "./skill.png";
-
 import agile from "./agile.jpg";
 import css from "./css.png";
 import git from "./git.png";

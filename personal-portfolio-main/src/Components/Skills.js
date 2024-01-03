@@ -7,7 +7,7 @@ import { AppText, skillsList } from "./../Constants";
 const Skills = () => {
   return (
     <div className="mt-10" id="skills">
-      <div className="flex flex-row justify-center items-center p-6 m-6 mt-15  ">
+      <div className="flex flex-row justify-center items-center p-5 m-5 mt-15  ">
         <img
           src={skill}
           className="w-[40px] hover:animate-bounce"

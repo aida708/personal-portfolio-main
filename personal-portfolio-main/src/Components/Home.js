@@ -22,9 +22,7 @@ const Home = () => {
             <h1 className="text-[35px]  md:text-[40px]  font-bold mr-3">
               {AppText.Iam}
             </h1>
-            {/* <h1 className="text-[40px]  md:text-[60px] font-bold  text-purple-600">
-              {AppText.RahulSanap}
-            </h1> */}
+
             <Typewriter
               options={{
                 strings: [
@@ -39,9 +37,9 @@ const Home = () => {
             />
           </div>
           <div>
-            <h1 className="my-5 text-gray-400">
+            <h1 className="my-5 text-gray-400 text-base md:text-md  lg:text-lg xl:text-xl">
               Passionate programmer specializing in Web Development. With 1+
-              years of experience in React, Java, SpringBoot I love making
+              year of experience in React, Java, Spring Boot I love making
               websites that are super user-friendly.
             </h1>
           </div>
@@ -59,8 +57,15 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className=" w-full flex justify-center">
-        <img src={homeImage} className="w-[200px] md:w-[300px]" />
+
+      <div className="flex justify-center items-center">
+        <div className=" md:w-1/2  flex justify-center items-center">
+          <img
+            src={homeImage}
+            className="auto-transform-image rounded-image w-200 hidden sm:block"
+            alt="myImg"
+          />
+        </div>
       </div>
     </div>
   );
