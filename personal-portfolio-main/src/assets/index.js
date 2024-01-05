@@ -1,5 +1,5 @@
 import logo from "./logo.jpg";
-import homeImage from "./homeimage.jpeg";
+import homeImage from "./homeimagee.png";
 
 import skill from "./skill.png";
 import agile from "./agile.jpg";
@@ -22,11 +22,11 @@ import scrum from "./scrum.png";
 
 import wave from "./wave.svg";
 import robo from "./robo.png";
-// import cognizantLogo from "./cognizantLogo.png";
 import wellsLogo from "./wells.png";
 import aflacLogo from "./aflac.png";
 import wiuLogo from "./wiu.png";
 import contactusbg from "./contactusbg.png";
+// import contactusbg from "./contactme.html";
 import phone from "./phone.png";
 import youtube from "./youtube.png";
 import postman from "./postman.png";
@@ -62,7 +62,6 @@ export {
   tailwind,
   springboot,
   logo,
-  // cognizantLogo,
   wellsLogo,
   github,
   contactusbg,

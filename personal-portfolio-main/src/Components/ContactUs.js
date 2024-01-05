@@ -44,12 +44,12 @@ function ContactUs() {
     >
       <div className="flex flex-row  justify-center ">
         <SectionHeading firstTitle={AppText.Contact} secondTitle={AppText.Us} />
-        <img src={phone} className="w-[80px] ml-4" alt="" />
+        <img src={phone} className="w-[80px] h-[120px] ml-4" alt="" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 justify-evenly px-10 md:px-44">
         <img
           src={contactusbg}
-          className="w-[400px] mr-10 rounded-2xl	shadow-lg"
+          className="w-[400px] mr-10"
           alt=""
           style={{ alignSelf: "center" }}
         />
